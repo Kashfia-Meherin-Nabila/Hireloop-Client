@@ -45,7 +45,7 @@ export default function Navbar() {
           </ul>
 
           {/* Vertical Separator Line */}
-          <div className="h-6 w-[1px] bg-white/20" />
+          <div className="h-6 w-px bg-white/20" />
 
           {/* Sign In & CTA */}
           <div className="flex items-center gap-6">
