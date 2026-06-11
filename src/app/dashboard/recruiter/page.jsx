@@ -1,5 +1,6 @@
 "use client"
 
+import RecruiterDashboard from "@/components/dashboard/RecruiterDashboard";
 import { useSession } from "@/lib/auth-client";
 import { Spinner } from "@heroui/react";
 import React from "react";
@@ -19,8 +20,8 @@ const RecruiterPage = () => {
     );
   }
   return (
-    <div>
-      <h2>Recruiter</h2>
+    <div className="container mx-auto">
+      <RecruiterDashboard user={session?.user} />
     </div>
   );
 };
